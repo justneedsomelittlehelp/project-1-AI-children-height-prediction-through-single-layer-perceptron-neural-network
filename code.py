@@ -34,6 +34,3 @@ def load_heightdata():
             data[n, 1] = 1
         data[n, [2,3,4]] = [row[0], row[1], row[3]]
         data[n, 4] = row[3]
-
-def init_model():
-    global weight, bias, inputcount, outputcount
